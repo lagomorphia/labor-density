@@ -7,7 +7,6 @@ library(shiny)
 library(htmltools)
 library(spatialEco)
 
-# From http://leafletjs.com/examples/choropleth/us-states.js
 states <- readOGR(dsn="json/us-states.json")
 total <- read.csv("state_union_density.csv", check.names = FALSE)
 
